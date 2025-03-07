@@ -25,12 +25,12 @@ SECRET_KEY = "django-insecure-^648lrb1z88_@vi#fyz%-fxsxjfg3o2+)%ftv3^v=uh2&cydky
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['sherifapi.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['cinetix-api.onrender.com', '127.0.0.1', 'localhost']
 
 CORS_ALLOWED_ORIGINS = [
    'http://localhost:5173',
    'https://cine-tix-iota.vercel.app',
-   'https://sherifapi.onrender.com',
+   'https://cinetix-api.onrender.com',
 ]
 
 CORS_ALLOW_HEADERS = [
